@@ -1,0 +1,10 @@
+这是一个使用 SimpleHttpServer 库实现简单 HTTP 服务器的 Java 程序。在主函数中，先调用 Main 类的 init 方法解析传入的参数，并启动一个新线程启动 HTTP 服务器。而在 init 方法中，程序支持以下参数：
+
+- -h 或 --help：显示帮助信息并退出。
+- -v 或 --version：显示程序版本信息并退出。
+- -H 或 --host <host>：指定服务器主机，如"http://example.com"。
+- -P 或 --port <port>：指定监听的端口号。
+- -d 或 --dir <dir>：指定服务器的根目录。
+- -a 或 --absolute-dir <dir>：指定服务器的绝对根目录。
+
+如果解析到对应参数，则输出提示信息并将设置传递给 SimpleHttpServer 对象。最后，启动 HTTP 服务器。
