@@ -1,0 +1,1 @@
+这是一个Java枚举类型，定义了HTTP协议中支持的请求方法，包括GET、POST、PUT、DELETE、HEAD、OPTIONS、TRACE和CONNECT。每个请求方法都有一个对应的字符串名称和一个方法来获取其名称。此外，这个枚举类型还定义了一个静态方法fromString，用于将字符串类型的请求方法名称转换为对应的HttpMethod枚举值。
